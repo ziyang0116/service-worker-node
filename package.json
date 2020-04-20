@@ -1,0 +1,23 @@
+{
+  "name": "service-worker-node",
+  "version": "1.0.4",
+  "description": "service-worker-node provides a Service Worker environment inside nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woodsyang/node-sw.git"
+  },
+  "author": "ziyang0116@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "fake-indexeddb": "^1.0.8",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "sync-request": "^6.1.0",
+    "request": "^2.81.0"
+  }
+}
